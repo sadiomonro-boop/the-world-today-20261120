@@ -276,7 +276,7 @@ STORIES = [
      "Leaders say Europe is ready to negotiate an end to the war in Ukraine and take a seat at the table.",
      "BERLIN"),
     ("KUSHNER: RUSSIA OK WITH KYIV PLEDGE",
-     "US envoy says Moscow accepts Article 5-style security guarantees for Ukraine after talks in Berlin.",
+     "US envoy says Moscow is 'comfortable' with Article 5-style security guarantees for Ukraine.",
      "BERLIN"),
     ("CRIMEAN BRIDGE HIT AGAIN",
      "Ukraine confirms a Neptune missile strike; rail traffic is halted and no injuries are reported.",
@@ -290,11 +290,11 @@ STORIES = [
     ("VOYAGER 1 PASSES ONE LIGHT-DAY",
      "NASA confirms the probe is the first human-made object 16 billion miles from Earth, after 49 years.",
      "CALIFORNIA"),
-    ("GAZA OPERATION ENDS; 1,600+ DEAD",
-     "Israel says its central Gaza ground operation is over; an AFP tally counts the toll since October.",
+    ("GAZA OP ENDS; TRUCE TOLL 1,600+",
+     "Israel says its central Gaza ground operation is over; an AFP tally counts 1,600+ killed since the Oct 2025 ceasefire began.",
      "GAZA"),
     ("GTA VI SALES TOP $1.8BN",
-     "Rockstar's blockbuster passes The Odyssey's global box-office run in its opening days.",
+     "Sensor Tower estimates Rockstar's blockbuster passes The Odyssey's $1.8bn global box-office run.",
      "WORLDWIDE"),
     ("HAYABUSA2 LOSES ASTEROID LANDING",
      "Engine trouble forces Japan's probe to abandon its planned touchdown on an asteroid.",
@@ -314,7 +314,7 @@ STORIES = [
     ("FIJI DECLARES DISASTER OVER DROUGHT",
      "El Nino drought forces a national state of disaster, with rain below normal until April.",
      "SUVA"),
-    ("SENSEX SURGES 1,000 POINTS",
+    ("SENSEX SURGES 990 POINTS",
      "Indian stocks close at 83,022 as the Nifty crosses 25,500 on strong buying.",
      "MUMBAI"),
     ("TRUMP PARDONS PETE ROSE",
@@ -334,7 +334,7 @@ STORIES = [
      "SEOUL"),
     ("US, VENEZUELA RESTORE MILITARY TIES",
      "The two countries sign a deal to resume military cooperation, the US says.",
-     "WASHINGTON"),
+     "CARACAS"),
     ("NORTH KOREA EXPANDS ENRICHMENT",
      "The UN watchdog reports growth at the Yongbyon uranium enrichment plant.",
      "VIENNA"),
@@ -353,14 +353,14 @@ STORIES = [
     ("SHELTON EDGES JODAR AT ATP FINALS",
      "The American moves close to a semi-final spot at the season finale in Turin.",
      "TURIN"),
-    ("DHONI RETIRES FROM THE IPL",
-     "The India great ends his playing career in the league after two decades.",
-     "INDIA"),
+    ("PANCREATIC CANCER PILL HOPE",
+     "Daily pill daraxonrasib shrinks or clears tumours in 60% of 61 patients in an early trial.",
+     "LONDON"),
     ("US COURT SUMMONS DOVAL, GOEL",
      "A judge orders summonses delivered through Delhi courts in a US case.",
      "NEW YORK"),
-    ("COP31 CLOSES IN ANTALYA",
-     "Climate talks end after 12 days in Turkey; India presses for climate finance.",
+    ("COP31 DUE TO CLOSE IN ANTALYA",
+     "Climate talks due to end after 12 days in Turkey; India presses for climate finance.",
      "ANTALYA"),
 ]
 
@@ -502,7 +502,7 @@ def render():
 
     # ---- footer
     cv.text_center(
-        "Sources: Reuters, BBC, NASA, The Hindu, AP, AFP  •  Events of 20 Nov 2026, plus overnight reports first published late 19 Nov",
+        "Sources: Reuters, BBC, NASA, The Hindu, AP, AFP  •  Events of 20 Nov 2026, plus reports first published 18-19 Nov",
         W // 2, 1000, 1, GREY)
     return cv
 

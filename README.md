@@ -12,7 +12,7 @@ a wireframe globe, and a **BY THE NUMBERS** strip.
 
 All 32 stories were checked against live news reports on 20 November
 2026 (Reuters, BBC, NASA, The Hindu, AP, AFP). Events of the day, plus
-overnight reports first published late 19 Nov, are included — the
+reports first published 18-19 Nov, are included — the
 footer says so. Nothing is invented.
 
 ## Run it
@@ -26,7 +26,7 @@ Pure Python 3.13 standard library — no network, no fonts, no image
 libraries. The 5x7 bitmap font and the PNG encoder are written in
 `main.py` itself. Two runs produce byte-identical output.
 
-Output: PNG, 1024x1024, 174,946 bytes (limit 1 MiB).
+Output: PNG, 1024x1024, 175,224 bytes (limit 1 MiB).
 
 ## License
 
